@@ -802,7 +802,7 @@ func (_bgc Cell )GetFormula ()string {if _bgc ._cg .F !=nil {return _bgc ._cg .F
 func (_baee *evalContext )GetEpoch ()_gf .Time {return _baee ._ded ._dddg .Epoch ()};func _eebb ()*_bd .CT_AbsoluteAnchor {_gabc :=_bd .NewCT_AbsoluteAnchor ();return _gabc };
 
 // Border is a cell border configuraton.
-type Border struct{_ff *_ccb .CT_Border ;_bea *_ccb .CT_Borders ;};var _dgeb =false ;
+type Border struct{_ff *_ccb .CT_Border ;_bea *_ccb .CT_Borders ;};var _dgeb =true ;
 
 // ClearSheetViews clears the list of sheet views.  This will clear the results
 // of AddView() or SetFrozen.

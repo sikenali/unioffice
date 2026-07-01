@@ -2317,7 +2317,7 @@ func (_ebag *WatermarkText )GetText ()string {_cgdbb :=_ebag .getShape ();if _eb
 
 // SetTextWrapBehindText sets the text wrap to behind text.
 func (_efg AnchoredDrawing )SetTextWrapBehindText (){_efg ._faa .WrapTypeChoice =&_ea .WdEG_WrapTypeChoice {};_efg ._faa .WrapTypeChoice .WrapNone =_ea .NewWdCT_WrapNone ();_efg ._faa .BehindDocAttr =true ;_efg ._faa .LayoutInCellAttr =true ;_efg ._faa .AllowOverlapAttr =true ;
-};var _fedc =false ;
+};var _fedc =true ;
 
 // SetAfter sets the spacing that comes after the paragraph.
 func (_fcdbd ParagraphSpacing )SetAfter (after _aa .Distance ){_fcdbd ._ddbfa .AfterAttr =&_cg .ST_TwipsMeasure {};_fcdbd ._ddbfa .AfterAttr .ST_UnsignedDecimalNumber =_c .Uint64 (uint64 (after /_aa .Twips ));};

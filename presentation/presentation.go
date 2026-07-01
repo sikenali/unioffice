@@ -33,7 +33,7 @@ if _cde ==_dbf ||((_gb .Abs (float64 (_cde )-float64 (_dbf ))< _add )&&((_cde >=
 for _dbff ,_aedf :=range _fbg .Slides (){if *_bbbf ._fea ==*_aedf ._fea {return _fbg ._bcd [_dbff ];};};return _adc .Relationships {};};
 
 // NewSlideScreenSize returns slide screen size with default MS PowerPoint slide screen size 16x9.
-func NewSlideScreenSize ()SlideScreenSize {return NewSlideScreenSizeWithValue (SlideScreenSize16x9 [0],SlideScreenSize16x9 [1]);};var _gcf =false ;
+func NewSlideScreenSize ()SlideScreenSize {return NewSlideScreenSizeWithValue (SlideScreenSize16x9 [0],SlideScreenSize16x9 [1]);};var _gcf =true ;
 
 // AddTable adds a new table to a placeholder.
 func (_cda PlaceHolder )AddTable ()*_adc .Table {_cda .Clear ();_aga :=_db .NewCT_GroupShapeChoice ();_cda ._gdb .CSld .SpTree .GroupShapeChoice =append (_cda ._gdb .CSld .SpTree .GroupShapeChoice ,_aga );_facf :=_db .NewCT_GraphicalObjectFrame ();_aga .GraphicFrame =_facf ;
